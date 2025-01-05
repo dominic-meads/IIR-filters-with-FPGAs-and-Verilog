@@ -63,7 +63,7 @@ module iir_DF1_Biquad_AXIS #(
   input  signed [inout_width-1:0] s_axis_tdata,
   output signed [inout_width-1:0] m_axis_tdata,
   output m_axis_tvalid,
-  output s_axis_tready
+  output s_axis_tready // module ready (signal to downstream slave)
 );
 
   // filter coefficients (multiplied floating point coefficients by 2^scale_factor)
