@@ -18,7 +18,7 @@
 //                 or vice versa. 
 //
 //      Example: lowpass elliptical filter. Cuttoff frequency of 1.5 MHz (Fsample = 10 MHz), with 40 dB stopband attenuation and 0.5 dB ripple in the passband
-//        see MATLAB Script here: https://github.com/dominic-meads/Vivado-Projects/blob/main/IIR_Direct_form_1_Biquad/sample_gen.m
+//        see MATLAB Script here: https://github.com/dominic-meads/IIR-filters-with-FPGAs-and-Verilog/blob/main/AXI-Stream%20Biquad/MATLAB/AXIS_DF1_Biquad_coeff_gen_and_test.m
 //
 //        filter coefficients generated in MATLAB (multiplied floating point coefficients by 2^14)
 //  
