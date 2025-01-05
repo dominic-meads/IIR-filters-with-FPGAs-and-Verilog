@@ -3,7 +3,7 @@
 % * generates test stimulus waveform, and verifies impulse response of fpga
 % output
 %
-% See biquad code: https://github.com/dominic-meads/Vivado-Projects/blob/main/IIR_Direct_form_1_Biquad/iir_DF1_Biquad_AXIS.v
+% See biquad code: https://github.com/dominic-meads/IIR-filters-with-FPGAs-and-Verilog/blob/main/AXI-Stream%20Biquad/src/iir_DF1_Biquad_AXIS.v
 %
 % ver 1.0 Dominic Meads 12/1/2024
 
