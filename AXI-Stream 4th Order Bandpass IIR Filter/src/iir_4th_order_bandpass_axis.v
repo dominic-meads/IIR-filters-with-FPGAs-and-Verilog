@@ -27,7 +27,7 @@
 // Revision 0.01 - File Created
 // Additional Comments:
 //
-//      See coefficient generation script and testing here: https://github.com/dominic-meads/ECG/blob/main/SoC/IIR_Bandpass_test/MATLAB%20scripts/Bandpass_coeff_gen.m
+//      See coefficient generation script and testing here: https://github.com/dominic-meads/IIR-filters-with-FPGAs-and-Verilog/blob/main/AXI-Stream%204th%20Order%20Bandpass%20IIR%20Filter/MATLAB/Bandpass_coeff_gen.m
 //      
 //////////////////////////////////////////////////////////////////////////////////
 module iir_4th_order_bandpass_axis #(
