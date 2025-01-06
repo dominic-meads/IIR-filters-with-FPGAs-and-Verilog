@@ -35,6 +35,7 @@ xq = (x./Vref)*((2^(bits-1))-1); % verilog signed 16 bit reg holds max value (2^
 xq_int = cast(xq,"int16");
 
 % must put files in xsim directory for vivado
+% IMPORTANT: CHANGE BELOW LINE TO YOUR FILE PATH
 cd 'C:\Users\demea\OneDrive\Documents\IIR Filters on FPGA Youtube Video\Part 2 AXI stream biquad\IIR_Biquad_AXIS\IIR_Biquad_AXIS.sim\sim_1\behav\xsim';
 fid1 = fopen('500kHz_sine_wave_with_noise.txt','w');
 fprintf(fid1,"%d\n",xq_int);
@@ -42,6 +43,7 @@ fclose(fid1);
 fid2 = fopen('Impulse_response_output.txt','w'); % create output file for tb
 fclose(fid2);
 % return to original directory
+% IMPORTANT: CHANGE BELOW LINE TO YOUR FILE PATH
 oldFolder = cd('C:\Users\demea\OneDrive\Documents\IIR Filters on FPGA Youtube Video\Part 2 AXI stream biquad');
 
 
@@ -86,12 +88,14 @@ title("Impulse Response");
 %% get impulse response output of FPGA simulation
 
 % output file in vivado xsim directory
+% IMPORTANT: CHANGE BELOW LINE TO YOUR FILE PATH
 cd 'C:\Users\demea\OneDrive\Documents\IIR Filters on FPGA Youtube Video\Part 2 AXI stream biquad\IIR_Biquad_AXIS\IIR_Biquad_AXIS.sim\sim_1\behav\xsim';
 fid2 = fopen('Impulse_response_output.txt','r');
 % get the impulse response samples
 hn_f = fscanf(fid2,"%d");
 fclose(fid2);
 % return to original directory
+% IMPORTANT: CHANGE BELOW LINE TO YOUR FILE PATH
 oldFolder = cd('C:\Users\demea\OneDrive\Documents\IIR Filters on FPGA Youtube Video\Part 2 AXI stream biquad');
 
 figure('Color',[1 1 1]);
