@@ -1,5 +1,5 @@
 %% Generates fixed-point coefficients for biquads implemented in FPGA. 
-% See biquad code: https://github.com/dominic-meads/Vivado-Projects/blob/main/IIR_Direct_form_1_Biquad/iir_DF1_Biquad_AXIS.v
+% See biquad code: https://github.com/dominic-meads/IIR-filters-with-FPGAs-and-Verilog/blob/main/AXI-Stream%20Biquad/src/iir_DF1_Biquad_AXIS.v
 % Link to cascading biquads: https://www.dsprelated.com/showarticle/1137.php
 %
 % Want to generate Bandpass filter with cuttoffs of 5 Hz and 15 Hz (corner
